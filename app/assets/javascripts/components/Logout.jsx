@@ -5,7 +5,7 @@ var Logout = React.createClass({
     var that = this;
     $.ajax({
       type: "Delete",
-      url: "http://localhost:3000/users/sign_out",
+      url: "https://localhost:3000/users/sign_out",
       dataType: "json",
       error: function (error) {
         console.log(error);

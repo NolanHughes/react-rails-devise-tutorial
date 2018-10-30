@@ -9,7 +9,7 @@ var Delete = React.createClass({
     });
     $.ajax({
       type: "DELETE",
-      url: "http://localhost:3000/users",
+      url: "https://localhost:3000/users",
       dataType: "json",
       data: {user: { email: that.props.currentUser } },
       error: function (error) {

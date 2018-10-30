@@ -16,7 +16,7 @@ var Login = React.createClass({
     }
     $.ajax({
       type: "POST",
-      url: "http://localhost:3000/users/sign_in",
+      url: "https://localhost:3000/users/sign_in",
       dataType: "json",
       data: userInfo,
       error: function (error) {

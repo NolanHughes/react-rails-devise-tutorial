@@ -17,7 +17,7 @@ var Signup = React.createClass({
     }
     $.ajax({
       type: "POST",
-      url: "http://localhost:3000/users",
+      url: "https://localhost:3000/users",
       dataType: "json",
       data: userInfo,
       error: function (error) {

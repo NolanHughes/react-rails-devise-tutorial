@@ -22,7 +22,7 @@ var Edit = React.createClass({
     });
     $.ajax({
       type: "PUT",
-      url: "http://localhost:3000/users",
+      url: "https://localhost:3000/users",
       dataType: "json",
       data: userInfo,
       error: function (error) {
