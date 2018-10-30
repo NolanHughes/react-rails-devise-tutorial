@@ -51,5 +51,5 @@ var Signup = React.createClass({
         <button onClick={() => this.props.changePage("login")}>Login!</button>
       </div>
     );
-  };
+  }
 });

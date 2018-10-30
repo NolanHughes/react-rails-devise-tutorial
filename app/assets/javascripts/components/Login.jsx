@@ -49,5 +49,5 @@ var Login = React.createClass({
         <button onClick={() => this.props.changePage("signup")}>Sign Up!</button>
       </div>
     );
-  };
+  }
 });

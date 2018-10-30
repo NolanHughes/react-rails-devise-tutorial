@@ -20,5 +20,5 @@ var Logout = React.createClass({
     return (
       <button onClick={this.handleLogout}>Sign Out</button>
     );
-  };
+  }
 });

@@ -79,5 +79,5 @@ var Edit = React.createClass({
         <p className={errorClass}>Your account could not be deleted</p>
       </div>
     );
-  };
+  }
 });

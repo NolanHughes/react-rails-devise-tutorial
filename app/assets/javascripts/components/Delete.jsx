@@ -25,5 +25,5 @@ var Delete = React.createClass({
     return (
       <button onClick={this.handleDelete}>Delete Account</button>
     );
-  };
+  }
 });
